@@ -1,3 +1,7 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
 .navbar-btn {
     margin-right: 1.5rem;
 }
@@ -33,9 +37,8 @@
 #parent li {
     margin: auto;
     text-decoration: none;
-    border: 1px solid rgba(224, 224, 224, 0.5);
     padding: 1rem;
-    margin-left: -4rem;
+    margin: auto;
     margin-bottom: .5rem;
 }
 
@@ -65,10 +68,20 @@
 #screener_right {
     background-color: rgba(224, 224, 224, 0.5);
     width: 100%;
-    height: 500px;
+    height: ;
     margin: 1.5rem auto;
     color: #000;
+    text-align: center;
 }
+#screener_left i {
+  font-size: 5rem;
+  color: #fff;
+}
+
+#program_name {
+  font-size: 2rem;
+}
+
 
 #footer {
     text-align: center;
