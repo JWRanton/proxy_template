@@ -32,15 +32,26 @@ ul {
 .stats__header-num {
   margin-right: 25px;
 }
+
+.Scores{
+  font-size: 80px;
+
+}
+
+.line{
+  	border-top: 1px solid #8c8b8b;
+    width: 700px;
+}
+
 .stats__header-num p {
   font-size: 80px;
   margin: 0;
   font-weight: 700;
 }
-.stats__header-name p {
-  color: #f8d0d8;
+.Scores p {
+  color: #black;
   margin: 0;
-  font-size: 18px;
+  font-size: 32px;
 }
 .stats__header-name span {
   display: block;
@@ -263,6 +274,12 @@ ul {
   font-size: 24px;
   margin: 0 0 0 12.5px;
 }
+
+.line{
+  border-top: 1px solid #8c8b8b;
+
+}
+
 @media (max-width: 690px) {
   .stats__overlay-back p {
     font-size: 18px;

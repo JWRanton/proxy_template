@@ -11,6 +11,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/graph.css" rel="stylesheet">
+    <link href ="css/myPlan.css" rel ="stylesheet" >
 
     <!-- Font  Awesome CDN -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
@@ -88,6 +89,10 @@
                 <div class="col-md-3">
                     <div class="col-md-12" id="screener_left">
                         <p>Profile column</p>
+                        <div "User_picture">
+                        <img src="default_male.jpeg"style="width:150px; height:150px;">
+                        </div>
+
                         <p>Left Navigation</p>
                         <ul>
                             <li>Nav Item</li>
@@ -95,50 +100,62 @@
                             <li>Nav Item</li>
                             <li>Nav Item</li>
                         </ul>
-                            <p id="program_name"><strong>Mood</strong>Calmer</p>
-                            <i class="fa fa-cloud" aria-hidden="true"></i>
+                            <div id = "Mood_Calmer_Area">
+                                <p id="program_name"><strong>Mood</strong>Calmer</p>
+                                <img src="SemiCircleComplete.png" class = "circle2" alt="Spin Circle" style="width:15rem;height:15rem;">
+                                <i class="fa_fa-cloud" aria-hidden="true"></i>
+                                <p> Next Session: </p>
+                                      <div id = "dateBox">
+                                            <p id ="dateText">  <strong>Monday</strong>
+                                          <br/><strong>11</strong>
+                                          <br/>April
+                                          </p>
+                                      </div>
+                                      <button type = "button" >Resume </button>
+
+                            </div>
+
                     </div>
                 </div>
                 <div class="col-md-9">
                     <div class="col-md-12" id="screener_right">
                       <main class="stats">
   <header class="stats__header">
-    <div class="stats__header-num">
-      <p>8</p>
-    </div>
-    <div class="stats__header-name">
-      <p>Alex<span>Ovechkin</span></p>
-    </div>
-  </header>
+      <div class="Scores">
+      <p> Scores </p>
+          <div class="line">
+          </div>
+
+        </header>
   <ul class="stats__list">
     <li class="stats__item">
       <i class="fa fa-moon-o" aria-hidden="true"></i>
       <p>Sleep</p>
-      <p class="stats__item-num">65</p>
+
       <div class="stats__item-bar"></div>
     </li>
     <li class="stats__item">
       <i class="fa fa-cloud" aria-hidden="true"></i>
       <p>Depression</p>
-      <p class="stats__item-num">56</p>
+
       <div class="stats__item-bar"></div>
     </li>
     <li class="stats__item">
       <i class="fa fa-bolt" aria-hidden="true"></i>
       <p>Anxiety</p>
-      <p class="stats__item-num">50</p>
+
       <div class="stats__item-bar"></div>
     </li>
     <li class="stats__item">
       <i class="fa fa-glass" aria-hidden="true"></i>
       <p>Alcohol</p>
-      <p class="stats__item-num">32</p>
+
       <div class="stats__item-bar"></div>
     </li>
     <li class="stats__item">
       <i class="fa fa-eyedropper" aria-hidden="true"></i>
       <p>Substance</p>
-      <p class="stats__item-num">38</p>
+
       <div class="stats__item-bar"></div>
     </li>
 
@@ -164,7 +181,32 @@
     </div>
   </div>
 </main>
-                    </div>
+        </div>
+
+<div class = "My_Plan">
+          <p class="te">  Test </p>
+          <div class="MyPlanRec"> 
+
+          <h1>My Plan</h1>
+
+          <dl>
+            <dt>Step 1 | <strong>Fear</strong>Fighter</dt>
+              <dd>É bom tomá-lo quente</dd>
+            <dt>Step 2| MoodClamer</dt>
+              <dd>É bom tomá-lo frio</dd>
+            <dt>Step 3| Restore</dt>
+              <dd>Eu, definitivamente, não gosto de chá. Mas, a escolha é tua!</dd>
+            <dt>Step 4|  Shade</dt>
+              <dd>Faz bem, em qualquer ocasião ...</dd>
+
+          </dl>
+
+        </div>
+</div>
+
+
+
+
                 </div>
             </div>
         </div>
@@ -185,5 +227,6 @@
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
 <script src="js/graph.js"></script>
+<script src = "myPlanjs.js"></script>
 </body>
 </html>

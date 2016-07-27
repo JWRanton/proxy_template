@@ -6,6 +6,7 @@ body {
     margin-right: 1.5rem;
 }
 
+
 .body_nav {
     border: 1px solid #eee;
     background-color: #eee;
@@ -19,6 +20,16 @@ body {
     padding: .5rem 0 .5rem 15rem ;
 }
 
+.hollow_square{
+  font-size: 30rem;
+
+}
+.transBox{
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
 #parent {
     background-color: #e0e0e0;
     height: 100%;
@@ -80,9 +91,30 @@ body {
 
 #program_name {
   font-size: 2rem;
+
 }
-
-
+#Mood_Calmer_Area{
+  border: 1px solid black;
+}
+#dateBox{
+  margin: 30px;
+  background-color: #ffffff;
+  height:15rem;
+  width: 15rem;
+  border: 1px solid black;
+}
+#dateText{
+  font-size: 2rem;
+}
+#wordInsideSqure{
+  font-size: 10px;
+}
+#fa_fa-cloud{
+  z-index: 1;
+}
+#circle2{
+  z-index: 3;
+}
 #footer {
     text-align: center;
     background-color: #000;
