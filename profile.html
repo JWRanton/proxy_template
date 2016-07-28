@@ -103,7 +103,7 @@
                             <div id = "Mood_Calmer_Area">
                                 <p id="program_name"><strong>Mood</strong>Calmer</p>
                                 <img src="SemiCircleComplete.png" class = "circle2" alt="Spin Circle" style="width:15rem;height:15rem;">
-                                <i class="fa_fa-cloud" aria-hidden="true"></i>
+                                <i class="fa fa-cloud" aria-hidden="true"></i>
                                 <p> Next Session: </p>
                                       <div id = "dateBox">
                                             <p id ="dateText">  <strong>Monday</strong>
@@ -112,9 +112,7 @@
                                           </p>
                                       </div>
                                       <button type = "button" >Resume </button>
-
                             </div>
-
                     </div>
                 </div>
                 <div class="col-md-9">
@@ -183,23 +181,45 @@
 </main>
         </div>
 
-<div class = "My_Plan">
+<div class = "col-md-16" id= "MyPlan">
           <p class="te">  Test </p>
-          <div class="MyPlanRec"> 
 
-          <h1>My Plan</h1>
 
-          <dl>
-            <dt>Step 1 | <strong>Fear</strong>Fighter</dt>
-              <dd>É bom tomá-lo quente</dd>
-            <dt>Step 2| MoodClamer</dt>
-              <dd>É bom tomá-lo frio</dd>
-            <dt>Step 3| Restore</dt>
-              <dd>Eu, definitivamente, não gosto de chá. Mas, a escolha é tua!</dd>
-            <dt>Step 4|  Shade</dt>
-              <dd>Faz bem, em qualquer ocasião ...</dd>
+  <div class = "MyPlanRecOuter" >
+          <p  id = "myPlanRecHeader"> My Plan </p>
+  </div>
 
-          </dl>
+
+        <div class="MyPlanRecInner">
+              <div class = "col-md-12" id="dropdown">
+                      <button onclick="myFunction()" class ="dropbtn" ><strong>Fear</strong>Fighter</button>
+                              <div id="myDropdown" class="dropdown-content">
+                                  <a href="#">Link 1</a>
+                                  <a href="#">Link 2</a>
+                                  <a href="#">Link 3</a>
+                              </div>
+
+                      <button onclick="myFunction()" class ="dropbtn" ><strong>Mood</strong>Calmer</button>
+                                      <div id="myDropdown" class="dropdown-content">
+                                          <a href="#">Link 1</a>
+                                          <a href="#">Link 2</a>
+                                          <a href="#">Link 3</a>
+                                      </div>
+
+                      <button onclick="myFunction()" class ="dropbtn" ><strong>Restore</strong></button>
+                                              <div id="myDropdown" class="dropdown-content">
+                                                  <a href="#">Link 1</a>
+                                                  <a href="#">Link 2</a>
+                                                  <a href="#">Link 3</a>
+                                              </div>
+
+                    <button onclick="myFunction()" class ="dropbtn" ><strong>Shade</strong></button>
+                                                      <div id="myDropdown" class="dropdown-content">
+                                                          <a href="#">Link 1</a>
+                                                          <a href="#">Link 2</a>
+                                                          <a href="#">Link 3</a>
+                                                      </div>
+              </div>
 
         </div>
 </div>

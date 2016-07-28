@@ -109,11 +109,11 @@ body {
 #wordInsideSqure{
   font-size: 10px;
 }
-#fa_fa-cloud{
-  z-index: 1;
+#fa fa-cloud{
+  z-index: over;
 }
 #circle2{
-  z-index: 3;
+  z-index: under;
 }
 #footer {
     text-align: center;
