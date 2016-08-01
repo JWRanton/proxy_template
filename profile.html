@@ -1,247 +1,460 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Proxy template</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Proxy template</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/graph.css" rel="stylesheet">
-    <link href ="css/myPlan.css" rel ="stylesheet" >
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/graph.css" rel="stylesheet">
+  <link href ="css/myPlan.css" rel ="stylesheet" >
 
-    <!-- Font  Awesome CDN -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <!-- Font  Awesome CDN -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING:Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING:Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
 </head>
 <body>
 
-<!-- NAVBAR -->
-<nav class="navbar navbar-default navbar-fixed-top">
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Proxy</a>
-        </div>
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Proxy</a>
+      </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">EN ESPANOL</a></li>
-                <li><a href="#">ABOUT US</a></li>
-                <li><a href="#">CONTACT US</a></li>
-                <li><a href="#">CAREERS</a></li>
-                <li><a href="#">NEWS</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>
-                <li><button type="button" class="btn btn-default navbar-btn">Login</button></li>
-            </ul>
-        </div><!-- /.navbar-collapse -->
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">EN ESPANOL</a></li>
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#">CONTACT US</a></li>
+          <li><a href="#">CAREERS</a></li>
+          <li><a href="#">NEWS</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>
+          <li><button type="button" class="btn btn-default navbar-btn">Login</button></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
-</nav>
+  </nav>
 
-<div class="container body_nav">
+  <div class="container body_nav">
     <div class="col-md-12">
-        <p><a class="btn btn-default btn-md" href="#" role="button">BETTER HEALTH STARTS HERE</a></p>
-        <p><a class="btn btn-default btn-md" href="#" role="button">MEDICARE</a></p>
-        <p><a class="btn btn-primary btn-md" href="#" role="button">MY ACCOUNT</a></p>
+      <p><a class="btn btn-default btn-md" href="#" role="button">BETTER HEALTH STARTS HERE</a></p>
+      <p><a class="btn btn-default btn-md" href="#" role="button">MEDICARE</a></p>
+      <p><a class="btn btn-primary btn-md" href="#" role="button">MY ACCOUNT</a></p>
     </div>
-</div>
+  </div>
 
-<div class="container-fluid">
+  <div class="container-fluid">
     <div class="row">
-    <div class="col-md-12" id="parent">
+      <div class="col-md-12" id="parent">
         <p id="breadcrumb">Home / Page / page</p>
         <div class="col-md-3">
-            <div class="col-md-12" id="left">
-                <p>Left Navigation</p>
-                <ul>
-                    <li>Nav Item</li>
-                    <li>Nav Item</li>
-                    <li>Nav Item</li>
-                    <li>Nav Item</li>
-                    <li>Nav Item</li>
-                    <li>Nav Item</li>
-                    <li>Nav Item</li>
-                    <li>Nav Item</li>
-                </ul>
-            </div>
+          <div class="col-md-12" id="left">
+            <p>Left Navigation</p>
+            <ul>
+              <li>Nav Item</li>
+              <li>Nav Item</li>
+              <li>Nav Item</li>
+              <li>Nav Item</li>
+              <li>Nav Item</li>
+              <li>Nav Item</li>
+              <li>Nav Item</li>
+              <li>Nav Item</li>
+            </ul>
+          </div>
         </div>
         <div class="col-md-9">
-            <div class="col-md-12" id="right">
-                <p>Right Content Area</p>
-                <div class="col-md-3">
-                    <div class="col-md-12" id="screener_left">
-                        <p>Profile column</p>
-                        <div "User_picture">
-                          <i class="fa fa-user fa-4x"  aria-hidden="true"></i>
-
-                        </div>
-
-                        <p>Left Navigation</p>
-                        <ul>
-                            <li>Nav Item</li>
-                            <li>Nav Item</li>
-                            <li>Nav Item</li>
-                            <li>Nav Item</li>
-                        </ul>
-                            <div id = "Mood_Calmer_Area">
-                                <p id="program_name"><strong>Mood</strong>Calmer</p>
-                                <img src="SemiCircleComplete.png" class = "circle2" alt="Spin Circle" style="width:15rem;height:15rem;">
-                                <i class="fa fa-cloud" aria-hidden="true"></i>
-                                <p> Next Session: </p>
-                                      <div id = "dateBox">
-                                            <p id ="dateText">  <strong>Monday</strong>
-                                          <br/><strong>11</strong>
-                                          <br/>April
-                                          </p>
-                                      </div>
-                                      <button type = "button" >Resume </button>
-                            </div>
-                    </div>
+          <div class="col-md-12" id="right">
+            <p>Right Content Area</p>
+            <div class="col-md-3">
+              <div class="col-md-12" id="screener_left">
+                <div class="row">
+                  <div class="col-md-12">
+                    <p>Profile Area</p>
+                  </div>
                 </div>
-                <div class="col-md-9">
-                    <div class="col-md-12" id="screener_right">
-                      <main class="stats">
-  <header class="stats__header">
+                <div class="row">
+                  <div class="col-md-12">
+                    <span id=profile-icon><i class="fa fa-user fa-4x"  aria-hidden="true"></i><span>
+                      <p>Justin Ranton</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12" id="profile-info">
+                      <ul>
+                        <li><i class="fa fa-envelope-o" aria-hidden="true"></i> jranton@magellanhealth.com</li>
+                        <li><i class="fa fa-birthday-cake" aria-hidden="true"></i> 04/11/1984</li>
+                        <li><i class="fa fa-mobile-phone" aria-hidden="true"></i> 555-555-555</li>
+                        <li><i class="fa fa-language" aria-hidden="true"></i> English</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div id = "Mood_Calmer_Area">
+                        <p id="program_name"><strong>Mood</strong>Calmer</p>
+                        <img id="semi-circle" src="SemiCircleComplete.png" class = "circle2" alt="Spin Circle" style="width:15rem;height:15rem;">
+                        <i class="fa fa-cloud" aria-hidden="true"></i>
+
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12" id="date-box">
+                      <p> Next Session: </p>
+                      <h4>Monday</h4>
+                      <p>11</p>
+                      <h4>April</h4>
+                    </div>
+                  </div>
+
+
+                  <!--
+                  <div id = "dateBox">
+                  <p id ="dateText">  <strong>Monday</strong>
+                  <br/><strong>11</strong>
+                  <br/>April
+                </p>
+              </div>
+            </div>
+          </div> -->
+
+
+            <div class="col-md-12">
+              <button id="resume" class="btn btn-primary">Resume</button>
+              <!--
+              <button type = "button" >Resume </button> -->
+            </div>
+
+
+        </div>
+      </div>
+      <div class="col-md-9">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Results Area</h2>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12" id="scores">
+            <h3 class="pull-left">My Scores</h3>
+            <div class="row">
+              <div class="col-md-offset-2 col-md-6">
+                <!-- GRAPH BEGIN -->
+                <ul class="stats__list">
+                  <li class="stats__item">
+                    <i class="fa fa-moon-o" aria-hidden="true"></i>
+                    <p>Sleep</p>
+
+                    <div class="stats__item-bar"></div>
+                  </li>
+                  <li class="stats__item">
+                    <i class="fa fa-cloud" aria-hidden="true"></i>
+                    <p>Depr</p>
+
+                    <div class="stats__item-bar"></div>
+                  </li>
+                  <li class="stats__item">
+                    <i class="fa fa-bolt" aria-hidden="true"></i>
+                    <p>Anxi</p>
+
+                    <div class="stats__item-bar"></div>
+                  </li>
+                  <li class="stats__item">
+                    <i class="fa fa-glass" aria-hidden="true"></i>
+                    <p>Alco</p>
+
+                    <div class="stats__item-bar"></div>
+                  </li>
+                  <li class="stats__item">
+                    <i class="fa fa-eyedropper" aria-hidden="true"></i>
+                    <p>Subs</p>
+
+                    <div class="stats__item-bar"></div>
+                  </li>
+
+                </ul>
+                <div class="stats__overlay">
+                  <div class="stats__overlay-back">
+                    <svg fill="white" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36"><path d="M30 16.5H11.74l8.38-8.38L18 6 6 18l12 12 2.12-2.12-8.38-8.38H30v-3z"></path></svg>
+                    <p id="year">2009-2010</p>
+                  </div>
+                  <div class="stats__overlay-avg">
+                    <p class="avg" id="avg">0.69</p>
+                    <p>Goals per game</p>
+                  </div>
+                  <div class="stats__overlay-info">
+                    <div class="stats__overlay-info-half">
+                      <p id="goals">50</p>
+                      <p>Goals</p>
+                    </div>
+                    <div class="stats__overlay-info-half">
+                      <p id="games">72</p>
+                      <p>Games</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12" >
+            <div class="row">
+              <div class="col-md-12">
+                <h3 class="pull-left">My Plan</h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12" id="my-plan">
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                  <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                      <h4 class="panel-title">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          <h3>Panel</h3>
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                      <div class="panel-body">
+                        <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                            80%
+                          </div>
+                        </div>
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                      <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Collapsible Group Item #2
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                      <div class="panel-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                      <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Collapsible Group Item #3
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                      <div class="panel-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--
+      <div class="col-md-9">
+      <div class="col-md-12" id="screener_right">
+      <main class="stats">
+      <header class="stats__header">
       <div class="Scores">
       <p> Scores </p>
-          <div class="line">
-          </div>
+      <div class="line">
+    </div>
 
-        </header>
+  </header>
   <ul class="stats__list">
-    <li class="stats__item">
-      <i class="fa fa-moon-o" aria-hidden="true"></i>
-      <p>Sleep</p>
+  <li class="stats__item">
+  <i class="fa fa-moon-o" aria-hidden="true"></i>
+  <p>Sleep</p>
 
-      <div class="stats__item-bar"></div>
-    </li>
-    <li class="stats__item">
-      <i class="fa fa-cloud" aria-hidden="true"></i>
-      <p>Depression</p>
+  <div class="stats__item-bar"></div>
+</li>
+<li class="stats__item">
+<i class="fa fa-cloud" aria-hidden="true"></i>
+<p>Depression</p>
 
-      <div class="stats__item-bar"></div>
-    </li>
-    <li class="stats__item">
-      <i class="fa fa-bolt" aria-hidden="true"></i>
-      <p>Anxiety</p>
+<div class="stats__item-bar"></div>
+</li>
+<li class="stats__item">
+<i class="fa fa-bolt" aria-hidden="true"></i>
+<p>Anxiety</p>
 
-      <div class="stats__item-bar"></div>
-    </li>
-    <li class="stats__item">
-      <i class="fa fa-glass" aria-hidden="true"></i>
-      <p>Alcohol</p>
+<div class="stats__item-bar"></div>
+</li>
+<li class="stats__item">
+<i class="fa fa-glass" aria-hidden="true"></i>
+<p>Alcohol</p>
 
-      <div class="stats__item-bar"></div>
-    </li>
-    <li class="stats__item">
-      <i class="fa fa-eyedropper" aria-hidden="true"></i>
-      <p>Substance</p>
+<div class="stats__item-bar"></div>
+</li>
+<li class="stats__item">
+<i class="fa fa-eyedropper" aria-hidden="true"></i>
+<p>Substance</p>
 
-      <div class="stats__item-bar"></div>
-    </li>
+<div class="stats__item-bar"></div>
+</li>
 
-  </ul>
-  <div class="stats__overlay">
-    <div class="stats__overlay-back">
-      <svg fill="white" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36"><path d="M30 16.5H11.74l8.38-8.38L18 6 6 18l12 12 2.12-2.12-8.38-8.38H30v-3z"></path></svg>
-      <p id="year">2009-2010</p>
-    </div>
-    <div class="stats__overlay-avg">
-      <p class="avg" id="avg">0.69</p>
-      <p>Goals per game</p>
-    </div>
-    <div class="stats__overlay-info">
-      <div class="stats__overlay-info-half">
-        <p id="goals">50</p>
-        <p>Goals</p>
-      </div>
-      <div class="stats__overlay-info-half">
-        <p id="games">72</p>
-        <p>Games</p>
-      </div>
-    </div>
-  </div>
+</ul>
+<div class="stats__overlay">
+<div class="stats__overlay-back">
+<svg fill="white" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36"><path d="M30 16.5H11.74l8.38-8.38L18 6 6 18l12 12 2.12-2.12-8.38-8.38H30v-3z"></path></svg>
+<p id="year">2009-2010</p>
+</div>
+<div class="stats__overlay-avg">
+<p class="avg" id="avg">0.69</p>
+<p>Goals per game</p>
+</div>
+<div class="stats__overlay-info">
+<div class="stats__overlay-info-half">
+<p id="goals">50</p>
+<p>Goals</p>
+</div>
+<div class="stats__overlay-info-half">
+<p id="games">72</p>
+<p>Games</p>
+</div>
+</div>
+</div>
 </main>
-        </div>
+</div>
 
-<div class = "col-md-16" id= "MyPlan">
-          <p class="te">  Test </p>
+<div class = "col-md-12" id= "MyPlan">
+<p class="te">  Test </p>
+<div class = "MyPlanRecOuter" >
+<p  id = "myPlanRecHeader"> My Plan </p>
+</div>
+<div class="row">
+<div class="col-md-12">
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+<div class="panel panel-default">
+<div class="panel-heading" role="tab" id="headingOne">
+<h4 class="panel-title">
+<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+Collapsible Group Item #1
+</a>
+</h4>
+</div>
+<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+<div class="panel-body">
+Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading" role="tab" id="headingTwo">
+<h4 class="panel-title">
+<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+Collapsible Group Item #2
+</a>
+</h4>
+</div>
+<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+<div class="panel-body">
+Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading" role="tab" id="headingThree">
+<h4 class="panel-title">
+<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+Collapsible Group Item #3
+</a>
+</h4>
+</div>
+<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+<div class="panel-body">
+Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 
+<div class="MyPlanRecInner">
+<div class = "col-md-12" id="dropdown">
+<button onclick="myFunction()" class ="dropbtn" ><strong>Fear</strong>Fighter</button>
+<div id="myDropdown" class="dropdown-content">
+<a href="#">Link 1</a>
+<a href="#">Link 2</a>
+<a href="#">Link 3</a>
+</div>
 
-  <div class = "MyPlanRecOuter" >
-          <p  id = "myPlanRecHeader"> My Plan </p>
-  </div>
+<button onclick="myFunction()" class ="dropbtn" ><strong>Mood</strong>Calmer</button>
+<div id="myDropdown" class="dropdown-content">
+<a href="#">Link 1</a>
+<a href="#">Link 2</a>
+<a href="#">Link 3</a>
+</div>
 
+<button onclick="myFunction()" class ="dropbtn" ><strong>Restore</strong></button>
+<div id="myDropdown" class="dropdown-content">
+<a href="#">Link 1</a>
+<a href="#">Link 2</a>
+<a href="#">Link 3</a>
+</div>
 
-        <div class="MyPlanRecInner">
-              <div class = "col-md-12" id="dropdown">
-                      <button onclick="myFunction()" class ="dropbtn" ><strong>Fear</strong>Fighter</button>
-                              <div id="myDropdown" class="dropdown-content">
-                                  <a href="#">Link 1</a>
-                                  <a href="#">Link 2</a>
-                                  <a href="#">Link 3</a>
-                              </div>
-
-                      <button onclick="myFunction()" class ="dropbtn" ><strong>Mood</strong>Calmer</button>
-                                      <div id="myDropdown" class="dropdown-content">
-                                          <a href="#">Link 1</a>
-                                          <a href="#">Link 2</a>
-                                          <a href="#">Link 3</a>
-                                      </div>
-
-                      <button onclick="myFunction()" class ="dropbtn" ><strong>Restore</strong></button>
-                                              <div id="myDropdown" class="dropdown-content">
-                                                  <a href="#">Link 1</a>
-                                                  <a href="#">Link 2</a>
-                                                  <a href="#">Link 3</a>
-                                              </div>
-
-                    <button onclick="myFunction()" class ="dropbtn" ><strong>Shade</strong></button>
-                                                      <div id="myDropdown" class="dropdown-content">
-                                                          <a href="#">Link 1</a>
-                                                          <a href="#">Link 2</a>
-                                                          <a href="#">Link 3</a>
-                                                      </div>
-              </div>
-
-        </div>
+<button onclick="myFunction()" class ="dropbtn" ><strong>Shade</strong></button>
+<div id="myDropdown" class="dropdown-content">
+<a href="#">Link 1</a>
+<a href="#">Link 2</a>
+<a href="#">Link 3</a>
+</div>
+</div>
+</div>
 </div>
 
 
 
 
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
+</div>
+</div>
+</div>
+-->
+</div>
+</div>
 </div>
 
 
 <div class="container-fluid">
-    <div class="row">
-        <div class="col-md-12" id="footer">
-            <p>Footer Area</p>
-        </div>
+  <div class="row">
+    <div class="col-md-12" id="footer">
+      <p>Footer Area</p>
     </div>
+  </div>
 </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
