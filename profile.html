@@ -158,66 +158,9 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-12" id="scores">
+          <div class="col-md-12">
             <h3 class="pull-left">My Scores</h3>
-            <div class="row">
-              <div class="col-md-offset-2 col-md-6">
-                <!-- GRAPH BEGIN -->
-                <ul class="stats__list">
-                  <li class="stats__item">
-                    <i class="fa fa-moon-o" aria-hidden="true"></i>
-                    <p>Sleep</p>
-
-                    <div class="stats__item-bar"></div>
-                  </li>
-                  <li class="stats__item">
-                    <i class="fa fa-cloud" aria-hidden="true"></i>
-                    <p>Depr</p>
-
-                    <div class="stats__item-bar"></div>
-                  </li>
-                  <li class="stats__item">
-                    <i class="fa fa-bolt" aria-hidden="true"></i>
-                    <p>Anxi</p>
-
-                    <div class="stats__item-bar"></div>
-                  </li>
-                  <li class="stats__item">
-                    <i class="fa fa-glass" aria-hidden="true"></i>
-                    <p>Alco</p>
-
-                    <div class="stats__item-bar"></div>
-                  </li>
-                  <li class="stats__item">
-                    <i class="fa fa-eyedropper" aria-hidden="true"></i>
-                    <p>Subs</p>
-
-                    <div class="stats__item-bar"></div>
-                  </li>
-
-                </ul>
-                <div class="stats__overlay">
-                  <div class="stats__overlay-back">
-                    <svg fill="white" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36"><path d="M30 16.5H11.74l8.38-8.38L18 6 6 18l12 12 2.12-2.12-8.38-8.38H30v-3z"></path></svg>
-                    <p id="year">2009-2010</p>
-                  </div>
-                  <div class="stats__overlay-avg">
-                    <p class="avg" id="avg">0.69</p>
-                    <p>Goals per game</p>
-                  </div>
-                  <div class="stats__overlay-info">
-                    <div class="stats__overlay-info-half">
-                      <p id="goals">50</p>
-                      <p>Goals</p>
-                    </div>
-                    <div class="stats__overlay-info-half">
-                      <p id="games">72</p>
-                      <p>Games</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <canvas id="barChart"></canvas>
           </div>
         </div>
         <div class="row">
@@ -466,11 +409,15 @@ Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richa
                               </div>
                           </div>
 >>>>>>> 9115abf32c6001e8ac7254857d30ea7bcbd799bd
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.6/Chart.min.js"></script>
+
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
 <script src="js/graph.js"></script>
 <script src = "myPlanjs.js"></script>
+<script src="js/mychart.js"></script>
 </body>
 </html>
